@@ -1,0 +1,133 @@
+.container{
+    width: 607px;
+    height: 870px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding-top: 60px;
+
+}
+.top-bar input{
+    display: flex;
+    width: 378px;
+    height: 78px;
+    background-color: #ebfffc;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 78px;
+    background: #ebfffc;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.weather-image{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+
+}
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 120px;
+    font-weight: 400;
+}
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 400px;
+
+}
+.data-container{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.element{
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+.data{
+    font-size:  34px;
+    font-weight: 400px;
+}
+.text{
+    font-size: 20px;
+    font-weight: 400px;
+}
+.icon{
+    margin-top: 10px;
+}
+.developer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    color: white;
+}
+.developer a{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 768px){
+    .top-bar input {
+        display: flex;
+        width: 250px;
+        height: 50px;
+    }
+    .search-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 52px;
+    }
+    .top-bar {
+        padding-top: 45px;
+    }
+    .container{
+        margin-top:0;
+        width: 100%;
+        height: 800px;
+        border-radius: 0;
+    }
+    .weather-temp{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 85px;
+        font-weight: 400;
+    }
+    .weather-location {
+        font-size: 40px;
+    }
+    .data {
+        font-size: 20px;
+    }
+    .text {
+        font-size: 17px;
+    }
+}
